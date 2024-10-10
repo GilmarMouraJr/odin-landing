@@ -103,5 +103,23 @@ img {
     width: 100%;
     object-fit: cover;
     border-radius: 16px;
-    border: 3px solid black;
+    border: 3px solid var(--color-dark);
+}
+
+.quote {
+    background-color: var(--color-grey);
+    color: var(--color-dark);
+    padding: 192px 288px 192px;
+}
+
+.quote p {
+    font-size: 32px;
+    text-align: right;
+}
+
+p.quote-text  {
+    text-align: left;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 300;
 }
