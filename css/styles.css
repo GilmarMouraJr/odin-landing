@@ -58,7 +58,7 @@ h1 {
 }
 
 .hero div p {
-    margin: 16px 0;
+    margin: 32px 0 64px;
 }
 
 .image {
@@ -76,4 +76,32 @@ img {
     font-weight: var(--bold-text);
     border-radius: 6px;
 }
+.info-cards {
+    padding: 48px 288px 96px;
+}
 
+.info-cards h2 {
+    text-align: center;
+    font-size: 36px;
+    color: var(--color-dark);
+    font-weight: var(--bold-text);
+}
+
+.info-cards-container {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.info-cards-container div {
+    width: 20%;
+}
+
+.info-cards-container img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 3px solid black;
+}
